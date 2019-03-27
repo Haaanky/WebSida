@@ -3,7 +3,8 @@ import React, {Component} from "react"
 class Button extends Component {
     render() {
         return(
-<button className="button" onClick="">Jag är en knapp</button>
+        <button className="button" onClick={this.props.handlerClick}>Jag är en knapp</button>
+
         )
     }
 }

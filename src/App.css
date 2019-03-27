@@ -1,6 +1,18 @@
+.Main-page{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  /* width:  50vw; */
+  align-items: center;
+  justify-items: center;
 
+}
 
-
+.Main-page > * {
+display: flex;
+}
 
 /* .App {
   text-align: center;
